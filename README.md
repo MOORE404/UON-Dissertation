@@ -11,6 +11,6 @@ our knowledge of HCI and human factors with VR.
 
 ## Contents
 
-- [`report.pdf`](./report.pdf) — Full dissertation document
-- [`video.mp4`](./video.mp4) — Presentation or demo video
+- [`report.pdf`](./REPORT.pdf) — Full dissertation document
+- [`video.mp4`](./Video.mp4) — Presentation or demo video
 
