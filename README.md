@@ -4,8 +4,6 @@ This repository contains the final year dissertation project for my BSc Computer
 
 ## Project Overview
 
-[Provide a 2–3 sentence summary of your project here. For example:]
-
 This project explores bridging the gap between virtual and real-world experiences by improving
 our knowledge of HCI and human factors with VR.
 
