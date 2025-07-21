@@ -8,7 +8,7 @@ our knowledge of HCI and human factors with VR. This was a large user study to e
 - [`report.pdf`](./REPORT.pdf) — Full dissertation document
 - [`video.mp4`](./Video.mp4) — Presentation or demo video
 
-## Summary
+## Summary of User Study and Findings
 ## Study Methodology
 
 This study explored user responses to emotionally intense Virtual Reality (VR) environments, using a mixed-method approach that combined observation, biometric tracking, and user feedback. The goal was to investigate how fear and immersion interact in VR-based human-computer interaction.
@@ -54,13 +54,13 @@ This study explored user responses to emotionally intense Virtual Reality (VR) e
   - Immersion
   - Engagement
  
-## 10. Results and Discussions
+## Results and Discussions
 
 This section presents findings from physiological data (GSR and PPG) and qualitative feedback gathered during and after the VR horror gameplay experience. Real-time biometric responses were recorded during gameplay, while interviews explored users’ emotional and cognitive reactions.
 
 ---
 
-### 10.1 Claustrophobia
+### Claustrophobia
 
 Participants identified narrow corridors, dark environments, and disorienting layouts as major sources of fear. The loss of control and visibility increased feelings of vulnerability and panic.
 
@@ -72,15 +72,30 @@ The unreliable flashlight—flickering or cutting out—was a recurring trigger.
 
 Participants exhibited physical tension, including crouching, freezing, and holding their breath in response to fear.
 
-**Figure 12:**  
-PPG spike indicating sharp heart rate increase when the flashlight turned off, suggesting heightened stress.  
-Later in the game, PPG levels stabilize as the participant adjusts.
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2" align="center">
+        <b>
+          PPG spikes indicating a sharp increase in heart rate when the flashlight turned off, suggesting heightened stress and anxiety as the player’s visibility was reduced, increasing uncertainty and fear. Second image depicts a later stage of the game, where the participant is more used to it.
+        </b>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <img src="images/Flashlight1.png" width="400" style="object-fit: contain;" />
+      </td>
+      <td>
+        <img src="images/Flashlight2.png" width="500" style="object-fit: contain;" />
+      </td>
+    </tr>
+  </table>
+</div>
 
-![Figure 12 - Flashlight Stress](path/to/figure12.jpg)
 
 ---
 
-### 10.2 Sound as a Fear Amplifier
+### Sound as a Fear Amplifier
 
 Sound emerged as the most consistent factor for inducing fear and immersion. Participants described the layered soundscape as oppressive and unpredictable, with directional audio such as whispers, pig snorts, and voice lines ("it's behind you") keeping them in a heightened state of alert.
 
@@ -88,36 +103,104 @@ Sound emerged as the most consistent factor for inducing fear and immersion. Par
 
 The third floor was consistently described as the most stressful zone, correlating with increased PPG values and descriptions of the space as claustrophobic and nerve-wracking.
 
-**Figure 13:**  
-PPG spikes during the third-floor sequence. Participants reported fear without visible threats, driven by ambient audio tension.
 
-![Figure 13 - Third Floor Stress](path/to/figure13.jpg)
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2" align="center">
+        <b>
+Figure 13: PPG activity spikes during the third-floor sequence. Elevated heart rate correlates with interview data describing the space as “claustrophobic” and “nerve-wracking,”
+with no immediate scare but constant tension from ambient sound.
+        </b>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <img src="images/ThirdFloor1.png" width="400" style="object-fit: contain;" />
+      </td>
+      <td>
+        <img src="images/Thirdfloor2.png" width="500" style="object-fit: contain;" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 Randomized sound cues (e.g., distant crashes, growls) triggered strong GSR and PPG reactions, even without visual stimuli. These responses were most prominent early in the experience but diminished as players adapted to the environment.
 
-**Figure 14:**  
-Left: PPG spike from a sudden sound cue.  
-Right: Corresponding GSR spike showing emotional arousal.
 
-![Figure 14 - Sound Cue Spikes](path/to/figure14.jpg)
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2" align="center">
+        <b>
+Left: PPG spike triggered by an unexpected sound cue. Right: GSR spike
+showing increased emotional arousal during the same auditory event. These responses
+reinforce the role of unpredictable audio in sustaining tension.
+        </b>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <img src="images/SoundQueue1.png" width="500" style="object-fit: contain;" />
+      </td>
+      <td>
+        <img src="images/SoundQueue2.png" width="400" style="object-fit: contain;" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 Key audio-based events like the first jumpscare and the front door slam also produced strong physiological reactions.
 
-**Figure 15:**  
-Left: PPG spike from the first jumpscare.  
-Right: Anticipatory spike as the participant glimpsed the monster before the scare.
 
-![Figure 15 - Jumpscare PPG](path/to/figure15.jpg)
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2" align="center">
+        <b>
+Left: PPG spike marking the primary response to the initial jumpscare. Right:
+A smaller anticipatory spike as the participant briefly glimpsed the monster beforehand,
+indicating rising fear prior to the main event.
+        </b>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <img src="images/FirstJumpScare1.png" width="500" style="object-fit: contain;" />
+      </td>
+      <td>
+        <img src="images/FirstJumpScare2.png" width="400" style="object-fit: contain;" />
+      </td>
+    </tr>
+  </table>
+</div>
 
-**Figure 16:**  
-Left: PPG spike after door slam.  
-Right: GSR and PPG combined response indicating stress and startle.
 
-![Figure 16 - Door Slam Response](path/to/figure16.jpg)
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2" align="center">
+        <b>
+Left: PPG spike following the front door slam. Right: Concurrent PPG
+and GSR spikes signal a strong combined physiological response—surprise, stress, and
+emotional arousal—immediately after the auditory scare.
+        </b>
+      </th>
+    </tr>
+    <tr>
+      <td>
+        <img src="images/FrontDoorClose.png" width="500" style="object-fit: contain;" />
+      </td>
+      <td>
+        <img src="images/FrontDoorClose2.png" width="400" style="object-fit: contain;" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-### 10.3 Findings from Physiological Measurements
+### Findings from Physiological Measurements
 
 PPG data consistently showed spikes during intense events, including:
 
@@ -136,7 +219,7 @@ The most significant arousal occurred not from direct scares, but from prolonged
 
 ---
 
-### 10.4 Body Movements and Physical Reactions
+### Body Movements and Physical Reactions
 
 Participants exhibited involuntary reactions including:
 
@@ -150,7 +233,7 @@ The design encouraged a tension between fear and curiosity, with players compell
 
 ---
 
-### 10.5 Shared Quantitative and Qualitative Findings
+### Shared Quantitative and Qualitative Findings
 
 Physiological spikes closely matched participants’ own reports of the most terrifying moments, including:
 
