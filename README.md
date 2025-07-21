@@ -5,7 +5,7 @@ This repository contains the final year dissertation project for my BSc Computer
 ## Project Overview
 
 This project explores bridging the gap between virtual and real-world experiences by improving
-our knowledge of HCI and human factors with VR.
+our knowledge of HCI and human factors with VR. This was a large user study to examine what works with fear in a VR setting
 
 ## Contents
 
